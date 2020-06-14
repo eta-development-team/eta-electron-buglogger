@@ -1,0 +1,25 @@
+.CoreFlexRow {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    padding-bottom: 20px;
+}
+.CoreWindowWraggableTitle
+    {
+        flex: 1; 
+        -webkit-app-region: drag;
+         width: 100%;
+          align-self: center; 
+          text-align: center;
+          vertical-align: middle;
+          font-size: 16px; 
+          letter-spacing: 4px;
+          text-transform: uppercase;
+    }
+
+.CoreAppTitle
+{
+    padding-bottom: 5px;
+
+}

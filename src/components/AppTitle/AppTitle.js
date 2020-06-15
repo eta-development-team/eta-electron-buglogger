@@ -16,30 +16,7 @@ class AppTitle extends React.Component {
             items={[
               {
                 icon: "menu",
-                items: [
-                  {
-                    text: "Themes",
-                    icon: "fill",
-                    items: [
-                      {
-                        text: "Light Orange",
-                        themeName: "material.orange.light",
-                        onClick: (e) => {
-                            console.log(e);
-                            
-                          this.props.themeSelector(e.itemData.themeName);
-                        },
-                      },
-                      {
-                        text: "Dark Orange",
-                        themeName: "material.orange.dark",
-                        onClick: (e) => {
-                            console.log(e);
-                          this.props.themeSelector(e.itemData.themeName);
-                        },
-                      },
-                    ],
-                  },
+                items: [                  
                   {
                     text: "About",
                     icon: "image",
